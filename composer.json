@@ -1,0 +1,55 @@
+{
+    "name": "dhtml/flarum-leaderboard",
+    "description": "Flarum leaderboard",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "GPL-1.0-or-later",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "Anthony Ogundipe",
+            "email": "diltony@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dhtml\\Leaderboard\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Flarum Leaderboard",
+            "category": "",
+            "icon": {
+                "name": "",
+                "color": "",
+                "backgroundColor": ""
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": false,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": false,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
