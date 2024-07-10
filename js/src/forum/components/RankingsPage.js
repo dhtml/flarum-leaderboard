@@ -52,7 +52,7 @@ export default class RankingsPage extends Page {
             </nav>
             <div className="IndexPage-results sideNavOffset">
 
-              <header class="Hero PageHero">
+              <header class="Hero PageHero leaderboard-hero">
                 <div class="iconcontainer">
                   <div class="fontico"><i class="fas fa-trophy"></i> &nbsp;</div>
                   <div class="icocont">
