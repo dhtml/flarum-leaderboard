@@ -1,5 +1,6 @@
 import app from 'flarum/forum/app';
+import RankingsPage from "./components/RankingsPage";
 
 app.initializers.add('dhtml/flarum-leaderboard', () => {
-  console.log('[dhtml/flarum-leaderboard] Hello, forum!');
+  app.routes.leaderboard = { path: '/leaderboard', component: RankingsPage };
 });
